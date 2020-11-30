@@ -1,13 +1,13 @@
 import './App.css';
-import About from './Components/About'
-import Articles from './Components/Articles'
+import About from './components/About'
+import Contacts from './components/Сontacts'
 
 function App() {
   return (
-      <>
+    <div>
       <About />
-      <Articles />
-      </>
+      <Contacts/>
+      </div>
   );
 }
 
