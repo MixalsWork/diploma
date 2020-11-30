@@ -1,0 +1,33 @@
+.ourContacts{
+    background-color: #282121;
+    height: 350px;
+    display: flex;
+    color: #F1F1F1;
+}
+hr{
+    position: absolute;
+    top:auto;
+    left:0;
+    width:100%;
+    opacity: 50%;
+  }
+  .ourContactsImg{
+     margin-top: -103px;
+  }
+  .ourContactsBlocks{
+      display: flex;
+      width: 600px;
+      padding-top: 90px;
+      justify-content: space-around;
+      line-height: 30px;
+  }
+  li{
+      list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #F1F1F1;
+  }
+  .ourContactsNetworks{
+      padding-top: 25px;
+  }
