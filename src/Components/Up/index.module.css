@@ -1,0 +1,25 @@
+.components{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0.2;
+    border: 2px solid var(--main-text-color);
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 36px;
+    right: 36px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    outline: none;
+}
+.components:hover{
+    opacity: 1;
+}
+.image{
+    margin-bottom: 0;
+    transition: all ease 0.3s;
+}
+.components:hover .image{
+    margin-bottom: 10px;
+}
