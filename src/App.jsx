@@ -1,12 +1,11 @@
 import './variables.css'
 import './App.css';
-
 import Header from './Components/Header'
-import About from './Components/About'
-import Articles from './Components/Articles'
 import SimpleSlider from './Components/Slider'
 import Menu from './Components/Burger'
 import Up from './Components/Up'
+import About from './Components/About'
+import Contacts from './Components/Сontacts'
 
 function App() {
   return (
@@ -14,21 +13,14 @@ function App() {
       <Menu />
       <main id="page-wrap">
         <Header />
+        <SimpleSlider />
         <About />
-        <Articles />
-        <SimpleSlider/>
+        <Contacts />
         <Up/>
       </main>
-import About from './components/About'
-import Contacts from './components/Сontacts'
-
-function App() {
-  return (
-    <div>
-      <About />
-      <Contacts/>
       </div>
   );
 }
 
 export default App;
+

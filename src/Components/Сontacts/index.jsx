@@ -22,14 +22,15 @@ function Contacts() {
               <li>
                 <div>
                   <a href="https://imgur.com/vesbjrt">
-                  <img src="https://i.imgur.com/IdmIXmw.png" alt="#"/>  www.instagram.com/marafon</a>
+                  <img src="https://i.imgur.com/xGkazST.png" alt="#"/>  www.instagram.com/marafon
+                  </a>
                 </div>
               </li>
               <li><div>
-                  <a href="https://imgur.com/vesbjrt"> <img src="https://i.imgur.com/zQMZlXh.png" alt="#"/> www.telegram.org/marafon</a>
+                  <a href="https://imgur.com/vesbjrt"> <img src="https://i.imgur.com/BSbJiSb.png " alt="#"/>  www.telegram.org/marafon</a>
                 </div></li>
               <li><div>
-                  <a href="https://imgur.com/vesbjrt"> <img src="https://i.imgur.com/6B7KHXP.png" alt="#"/> marafon@example.com</a>
+                  <a href="https://imgur.com/vesbjrt"> <img src="https://i.imgur.com/re2jeYn.png " alt="#"/>  marafon@example.com</a>
                 </div></li>
             </ul>
           </div>

@@ -9,9 +9,91 @@
     width: 574px;
     height: 326px;
     padding-top: 350px;
+    font-size: 18px;
 }
 .aboutMeImg{
     width: 460px;
     height: 540px;
     padding-top: 200px;
 }
+
+@media screen and (max-width: 1346px) {
+    .aboutMe{
+        height: 800px; 
+    }
+    .aboutMeText{
+        width: 350px;
+        padding-top: 270px;
+    }
+    .aboutMeImg{
+        width: 400px;
+    height: 480px;
+    padding-top: 150px;
+    }
+}
+@media screen and (max-width: 805px){
+    .aboutMe{
+        height: 650px;
+    }
+    .aboutMeImg{
+        width: 300px;
+    height: 360px;
+    padding-top: 150px;
+    }
+    .aboutMeText{
+        width: 300px;
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width: 749px){
+   .aboutMeText {
+        font-size: 13px;
+        padding-top: 190px;
+        padding-top: 130px;
+    }
+    .aboutMe{
+        height: 550px;
+    }
+    .aboutMeImg{
+        padding-top: 100px;
+    }
+  }
+  @media screen and (max-width: 625px){
+    .aboutMeText{
+        width: 200px;
+    }
+    .aboutMeImg{
+        width: 250px;
+        height: 310px;
+        padding-top: 100px;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .aboutMe{
+        flex-direction: column;
+        height: 450px;  
+    }
+    .aboutMeText{
+        width: 350px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    .aboutMeImg{
+        width: 165px;
+        height: 210px;
+        padding-bottom: 10px;
+        padding-left: 130px;
+        padding-top: 1px;
+    }
+  }
+  @media screen and (max-width: 380px){
+    .aboutMeText{
+        width: 270px;
+        padding-left: 50px;
+    }
+    .aboutMeImg{
+        width: 120px;
+        height: 150px;
+        padding-left: 200px;
+    }
+  }
