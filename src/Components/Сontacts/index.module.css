@@ -1,0 +1,104 @@
+.ourContacts{
+    background-color: #282121;
+    height: 350px;
+    display: flex;
+    color: #F1F1F1;
+}
+hr{
+    position: absolute;
+    left:0;
+    width:100%;
+    opacity: 50%;
+    margin-top: 0px;
+  }
+  .ourContactsImg{
+     margin-top: -101px;
+  } 
+  .ourContactsBlocks{
+      display: flex;
+      width: 1000px;
+      padding-top: 80px;
+      justify-content: space-around;
+      line-height: 30px;
+  }
+  li{
+      list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #F1F1F1;
+  }
+  .ourContactsNetworks{
+      padding-top: 25px;
+      font-size: 16px;
+  }
+  @media screen and (max-width: 1050px){
+    .ourContactsImg{
+       width: 570px;
+       height: 451px;
+    }
+    .ourContactsBlocks{
+        width: 500px;
+        justify-content: start;
+        font-size: 14px;
+    }
+    .ourContactsMenu{
+        line-height: 25px;
+    }
+    .ourContactsNetworks{
+        width: 280px;
+        padding-top: 15px;
+    }
+  }
+  @media screen and (max-width: 955px){
+    .ourContacts{
+        height: 250px;
+    }
+    .ourContactsImg{
+        width: 370px;
+        height: 351px;
+     }
+     .ourContactsBlocks{
+         padding-top: 50px;
+         justify-content: space-between;
+     }
+  }
+  @media screen and (max-width: 749px){
+    .ourContactsBlocks{
+        font-size: 12px;
+        line-height: 23px;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .ourContactsMenu{
+        line-height: 20px;
+    }
+  }
+  @media screen and (max-width: 625px){
+    .ourContactsImg{
+        display: none;
+    }
+    .ourContactsBlocks{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+    .ourContacts{
+        height: 170px;
+    }
+  }
+  @media screen and (max-width: 380px){
+    .ourContacts{
+        height: 140px;
+    }
+    .ourContactsBlocks{
+      padding-top: 12px;
+    }
+    .ourContactsMenu{
+        line-height: 16px;
+    }
+    .ourContactsNetworks{
+        padding-top: 12px;
+    }
+  }
+ 
