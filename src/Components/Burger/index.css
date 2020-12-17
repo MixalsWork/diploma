@@ -19,7 +19,7 @@
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: var(--special-text-color);
+    background: var(--main-text-color);
   }
   
   /* Position and sizing of clickable cross button */
@@ -30,7 +30,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: var(--second-text-color);
+    background: var(--main-text-color);
   }
   
   /*
@@ -44,25 +44,26 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background:var(--special-text-color);
     padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+    font-size: 1.00em;
     overflow: hidden !important;
   }
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: var(--special-text-color);
+    fill: var(--main-text-color);
   }
   
   /* Wrapper for item list */
   .bm-item-list {
-    color: var(--special-text-color);
+    color: var(--main-text-color);
     padding: 0.8em;
+    background-color: var(--bg-main-color);
+    opacity: 77%;
   }
   .bm-item-list a{
     text-decoration: none;
-    color: var(--second-text-color);
+    color: var(--main-text-color);
     font-family: var(--main-font);
     outline: none;
   }

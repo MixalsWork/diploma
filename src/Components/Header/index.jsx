@@ -1,7 +1,7 @@
 import style from './index.module.css'
-import instagram from './img/Instagram.svg'
-import telegram from './img/Telegram.svg'
-import mouse from './img/mouse.svg'
+import instagram from './images/instagram.svg'
+import telegram from './images/telegram.svg'
+import mouse from './images/mouse.svg'
 import { Link } from "react-scroll";
 
 function Header() {
@@ -9,14 +9,15 @@ function Header() {
         <div className={style.components} id="header">
             <header className={style.header}>
                 <div className={style.author}>
-                    <div className={style.authorName}>
+                    {/* НЕ УДАЛЯТЬ */}
+                    {/* <div className={style.authorName}>
                         ЮЛИЯ <br/>
                         БАТКАЛОВА
                     </div>
                     <div className={style.authorJob}>
                         Тренер <br/>
                         Автор и спикер
-                    </div>
+                    </div> */}
                 </div>
                 <nav className={style.nav}>
                     <ol className={style.navList}>
@@ -69,15 +70,15 @@ function Header() {
                         Follow us
                     </div>
                     <div className={style.sidebarSocial}>
-                        <a href="" className={style.sidebarSocialItem}><img src={instagram} alt="instagram"/></a>
-                        <a href="" className={style.sidebarSocialItem}><img src={telegram} alt="telegram"/></a>
+                        <a href="https://instagram.com/yulia.batkalova?igshid=17gg39hhghl8t" className={style.sidebarSocialItem}><img src={instagram} alt="instagram"/></a>
+                        <a href="https://t.me/BatkalovaFinance" className={style.sidebarSocialItem}><img src={telegram} alt="telegram"/></a>
                     </div>
                 </sidebar>
                 <article className={style.article}>
                     <div className={style.articleAuthor}>
                         <span className={style.articleAuthorLine}></span>
                         <div className={style.articleAuthorName}>
-                            ГЕНРИ ФОРД
+                            Генри Форд
                         </div>
                     </div>
                     <blockquote className={style.blockquote}>
@@ -95,8 +96,7 @@ function Header() {
                         <button className={style.buttonDown}>
                             <img className={style.buttonDownImg} src={mouse} alt="mouse"/>
                         </button>
-                    </Link>
-            
+                    </Link>    
         </div>
     );
   }

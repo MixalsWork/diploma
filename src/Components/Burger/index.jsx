@@ -30,7 +30,7 @@ export default class Example extends React.Component {
             smooth={true}
             offset={-70}
             duration= {500}>
-            <a className="menu-item" href="">Регистрацыя</a>
+            <a className="menu-item" href="">Регистрация</a>
           </Link>
           <Link activeClass="active"
             to="about"

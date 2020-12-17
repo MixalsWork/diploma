@@ -3,7 +3,7 @@
     background-image: url('img/header.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -200px;
+    background-position: 0px -100px;
     display: flex;
     flex-direction: column;
 }
@@ -18,11 +18,11 @@
 }
 .author{
     display: flex;
-    font-family: 'Noto Serif';
+    font-family: var(--main-font);
     font-style: normal;
     font-size: 12px;
     line-height: 16px;
-    color: #EFF250;
+    color: var(--main-text-color);
     padding-right: 40px;
     display: none;
 }
@@ -37,27 +37,29 @@
     display: flex;
     list-style: none;
     padding-left: 0;
+    font-family: var(--main-font);
 }
 .navItem{
     transition: all ease 0.2s;
     cursor: pointer;
+    font-family: var(--main-font);
 }
 .navItem:hover{
     transform: scale(1.2);
 }
 
 .navList a{
-    font-family: 'Roboto';
+    font-family: var(--main-font);;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 16px;
-    color: #F1F1F1;
+    color: var(--main-text-color);
     text-decoration: none;
     transition: all ease 0.2s;
 }
 .navList a:hover {
-    color: #EFF250;
+    color: var(--main-text-color);
 }
 .content{
     display: flex;
@@ -75,9 +77,9 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
-    color: #EFF250;
+    color: var(--main-text-color);
     cursor: pointer;
     transition: all ease 0.3s;
 }
@@ -103,25 +105,25 @@
 .articleAuthorLine{
     width: 71px;
     height: 1px;
-    background:  #EFF250;
+    background:  var(--main-text-color);
     margin-right: 15px;
 }
 .articleAuthorName{
-    font-family: 'Noto Sans';
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
-    color: #EFF250;
+    color: var(--main-text-color);
 }
 .blockquote{
-    font-family: 'Noto Serif';
+    font-family: var(--main-font);
     font-style: italic;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 25px;
     line-height: 130%;
-    color: #F1F1F1;
-    max-width: 678px;
+    color: var(--main-text-color);
+    max-width: 505px;
     margin: 0;
 }
 .blockquote p{

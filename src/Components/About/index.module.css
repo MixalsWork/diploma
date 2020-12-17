@@ -1,58 +1,42 @@
 .aboutMe{
     display: flex;
-    background-color: #282121;
-    color: #F1F1F1;
+    background-color: var(--bg-main-color);
+    color: var(--main-text-color);
     justify-content: space-around;
-    height: 1000px;
+    font-family: var(--main-font);
 }
 .aboutMeText{
     width: 574px;
-    height: 326px;
-    padding-top: 350px;
+    padding-top: 100px;
     font-size: 18px;
 }
 .aboutMeImg{
-    width: 460px;
-    height: 540px;
-    padding-top: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
 @media screen and (max-width: 1346px) {
-    .aboutMe{
-        height: 800px; 
-    }
     .aboutMeText{
         width: 350px;
-        padding-top: 270px;
     }
     .aboutMeImg{
         width: 400px;
-    height: 480px;
-    padding-top: 150px;
+        height: 480px;
     }
 }
 @media screen and (max-width: 805px){
-    .aboutMe{
-        height: 650px;
-    }
     .aboutMeImg{
         width: 300px;
-    height: 360px;
-    padding-top: 150px;
+        height: 360px;
+        padding-top: 150px;
     }
     .aboutMeText{
-        width: 300px;
-        padding-top: 200px;
+        padding-top: 150px;
     }
 }
 @media screen and (max-width: 749px){
    .aboutMeText {
         font-size: 13px;
-        padding-top: 190px;
-        padding-top: 130px;
-    }
-    .aboutMe{
-        height: 550px;
+        padding-top: 120px;
     }
     .aboutMeImg{
         padding-top: 100px;
@@ -71,7 +55,6 @@
   @media screen and (max-width: 480px){
     .aboutMe{
         flex-direction: column;
-        height: 450px;  
     }
     .aboutMeText{
         width: 350px;

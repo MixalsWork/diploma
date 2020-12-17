@@ -74,7 +74,7 @@ export default class SimpleSlider extends Component {
     return (
       <div className={style.gallery} id='gallery'>
          <div className={style.container}>
-            <h1  className={style.title}>НАЧНИТЕ ПОЛУЧАТЬ ПОЛЕЗНЫЕ ЗНАНИЯ УЖЕ СЕГОДНЯ</h1>
+            <h1  className={style.title}>Полезная информация</h1>
             <Slider {...settings}>
             {newGalleryArray}
             </Slider>
