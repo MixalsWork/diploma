@@ -1,5 +1,82 @@
-.Bla{
-background-color: aqua;
+.aboutMe{
+    display: flex;
+    background-color: var(--bg-main-color);
+    color: var(--main-text-color);
+    justify-content: space-around;
+    font-family: var(--main-font);
 }
-
-/* пишу по БЭМ с маленькой буквы */
+.aboutMeText{
+    max-width: 574px;
+    padding-top: 100px;
+    font-size: 18px;
+}
+.aboutMeImg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 1346px) {
+    .aboutMeText{
+        max-width: 350px;
+    }
+    .aboutMeImg{
+        width: 400px;
+        height: 480px;
+    }
+}
+@media screen and (max-width: 805px){
+    .aboutMeImg{
+        width: 300px;
+        height: 360px;
+        padding-top: 150px;
+    }
+    .aboutMeText{
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width: 749px){
+   .aboutMeText {
+        font-size: 13px;
+        padding-top: 120px;
+    }
+    .aboutMeImg{
+        padding-top: 100px;
+    }
+  }
+  @media screen and (max-width: 625px){
+    .aboutMeText{
+        max-width: 200px;
+    }
+    .aboutMeImg{
+        width: 250px;
+        height: 310px;
+        padding-top: 100px;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .aboutMe{
+        flex-direction: column;
+    }
+    .aboutMeText{
+        max-width: 350px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    .aboutMeImg{
+        width: 165px;
+        height: 210px;
+        padding-bottom: 10px;
+        padding-left: 130px;
+        padding-top: 1px;
+    }
+  }
+  @media screen and (max-width: 380px){
+    .aboutMeText{
+        max-width: 270px;
+        padding-left: 50px;
+    }
+    .aboutMeImg{
+        width: 120px;
+        height: 150px;
+        padding-left: 200px;
+    }
+  }

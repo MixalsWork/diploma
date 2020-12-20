@@ -1,1 +1,6 @@
-/* цвета,шрифт */
+:root {
+    --main-text-color: #F1F1F1;
+    --second-text-color: #000000;
+    --bg-main-color: #282121;
+    --main-font: 'Noto Serif', serif;
+  }

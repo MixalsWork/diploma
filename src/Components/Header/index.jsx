@@ -1,0 +1,96 @@
+import style from './index.module.css'
+import instagram from './images/instagram.svg'
+import telegram from './images/telegram.svg'
+import mouse from './images/mouse.svg'
+import { Link } from "react-scroll";
+
+function Header() {
+    return (
+        <div className={style.components} id="header">
+            <header className={style.header}>
+                <nav className={style.nav}>
+                    <ol className={style.navList}>
+                    <Link activeClass="active"
+                        className={style.link}
+                        to="header"
+                        smooth={true}
+                        offset={-10}
+                        duration= {500}>
+                        <li className={style.navItem}>Главная</li>
+                    </Link>
+                    <Link activeClass="active"
+                        className={style.link}
+                        to="gallery"
+                        smooth={true}
+                        offset={-10}
+                        duration= {500}>
+                        <li className={style.navItem}>Каталог</li>
+                    </Link>
+                    <Link activeClass="active"
+                        className={style.link}
+                        to="registration"
+                        smooth={true}
+                        offset={-10}
+                        duration= {500}>
+                        <li className={style.navItem}>Регистрация</li>
+                    </Link>
+                    <Link activeClass="active"
+                        className={style.link}
+                        to="about"
+                        smooth={true}
+                        offset={-10}
+                        duration= {500}>
+                        <li className={style.navItem}>Обо мне</li>
+                    </Link>
+                    <Link activeClass="active"
+                        className={style.link}
+                        to="contacts"
+                        smooth={true}
+                        offset={-10}
+                        duration= {500}>
+                        <li className={style.navItem}>Контакты</li>
+                    </Link>
+                    </ol>
+                </nav>
+            </header>
+            <div className={style.content}>
+                <sidebar className={style.sidebar}>
+                    <div className={style.sidebarText}>
+                        Follow us
+                    </div>
+                    <div className={style.sidebarSocial}>
+                        <a href="https://instagram.com/yulia.batkalova?igshid=17gg39hhghl8t" className={style.sidebarSocialItem}><img src={instagram} alt="instagram"/></a>
+                        <a href="https://t.me/BatkalovaFinance" className={style.sidebarSocialItem}><img src={telegram} alt="telegram"/></a>
+                    </div>
+                </sidebar>
+                <article className={style.article}>
+                    <div className={style.articleAuthor}>
+                        <span className={style.articleAuthorLine}></span>
+                        <div className={style.articleAuthorName}>
+                            Генри Форд
+                        </div>
+                    </div>
+                    <blockquote className={style.blockquote}>
+                        <p>«Главная цель капитала - не добыть как можно больше денег, <br/>
+                            а добиться того, чтобы деньги вели к улучшению жизни.»
+                        </p>
+                    </blockquote>
+                </article>
+            </div>
+            <Link activeClass="active"
+                        className={style.linkButton}
+                        to="gallery"
+                        smooth={true}
+                        duration= {500}>
+                        <button className={style.buttonDown}>
+                            <img className={style.buttonDownImg} src={mouse} alt="mouse"/>
+                        </button>
+                    </Link>    
+        </div>
+    );
+  }
+  
+  export default Header;
+
+
+
